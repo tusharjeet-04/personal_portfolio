@@ -62,6 +62,8 @@ main{
 .avatarImage img{
     height: 28rem;
     object-fit:cover;
+    box-shadow: 5px 5px 50px  ;
+    border-radius: 20px;
 }
 .connectText{
     margin-top: 2rem;

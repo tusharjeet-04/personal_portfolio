@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Typewriter from 'typewriter-effect/dist/core';
-import profileAvatar from "../asset/avtar.jpg";
+import profileAvatar from "../asset/doodle.jpg";
 import PersonalData from "../../Data/PersonalData";
 import classes from "./home.module.css";
 import { autoTypeData } from "../../Data/PersonalData";

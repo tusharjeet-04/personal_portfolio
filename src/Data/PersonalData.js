@@ -8,5 +8,5 @@ const PersonalData = {
     resumeLink:'https://pink-darrelle-66.tiiny.site',
     imageUrl:''
 }
-export const autoTypeData=['2nd Year BCA Grade', 'Full Stack Developer'];
+export const autoTypeData=['2nd Year BCA', 'Full Stack Developer'];
 export default PersonalData;
