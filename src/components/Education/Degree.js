@@ -19,7 +19,7 @@ function Degree(props) {
             </h1>
             <div className={classes.degreeCard}>
                 <div className={`${classes.degreeImage} centered`} style={{borderColor:uiColor}}>
-                    <img src={UniversityImg} alt="degree" srcset="" />
+                    <img src={UniversityImg} alt="degree" srcSet="" />
                 </div>
                 <Card className={classes.degreeWrapper}>
                     <div className={classes.degreeInfo}>
