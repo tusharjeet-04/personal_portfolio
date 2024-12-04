@@ -1,5 +1,4 @@
 import React from "react";
-import Blog from "../asset/Blog.png"
 import classes from "./ProjectItem.module.css";
 import Card from "../UI/Card";
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -21,7 +20,6 @@ const ProjectItem = (props) => {
 
     return (
         <Card className={classes.projectItem}>
-              
             <h2 style={{ color: uiColor }}>{props.project.projectTitle}</h2>
             <p className={classes.description}>{description}</p>
             <div className={classes.controls}>
