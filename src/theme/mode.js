@@ -1,4 +1,20 @@
+import "./mode.css";
 import React, { useEffect, useState, useCallback } from 'react';
+import { useDispatch } from "react-redux";
+import { themeActions } from "../store/theme";
+
+import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
+import DoneIcon from '@mui/icons-material/Done';
+
+import ContrastIcon from '@mui/icons-material/Contrast';
+import DarkModeIcon from '@mui/icons-material/DarkMode';
+import LightModeIcon from '@mui/icons-material/LightMode';
+
+const icons=[
+    <LightModeIcon />,
+    <DarkModeIcon />,
+    <ContrastIcon />
+];
 
 const Mode = () => {
     const dispatch = useDispatch();
